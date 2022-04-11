@@ -1,0 +1,92 @@
+.container{
+    padding:30px 0;
+}
+.form-container {
+    width: 500px;
+    height: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.354);
+    border-radius: 20px;
+    padding: 50px 40px;
+    margin: 0 auto;
+    box-shadow: -16px 13px 1px 4px rgba(255, 153, 0, 0.227);
+}
+.form-container h2{
+    text-align: center;
+}
+.form input{
+    width : 100%;
+    box-sizing: border-box;
+    height : 50px;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px
+}
+
+.form button {
+    width :100%;
+    padding: 15px 0;
+    border-radius:10px;
+    border: 0;
+    font-size: 17px;
+    margin-top: 20px;
+    background: rgba(255, 153, 0, 0.3);
+    cursor: pointer;
+    transition: .3s;
+}
+.form button:hover{
+      background: rgba(255, 153, 0, 0.6);
+}
+.form-container p{
+    text-align: center;
+    font-size: 14px;
+}
+.form-container p a{
+    text-decoration: none;
+    color: rgba(255, 153, 0, 0.9);
+}
+.line-parent{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.line-parent p{
+    margin: 0 16px;
+    font-size: 19px;
+}
+.line-left,.line-right{
+width:150px;
+height:1px;
+background-color:rgba(128, 128, 128, 0.456)
+}
+.reset{text-align: center;}
+.reset-password{
+    background: transparent;
+    border: 0;
+    position: relative;
+    top: 13px;
+    cursor: pointer;
+}
+.reset-password:hover{
+    color: rgba(255, 0, 0, 0.594);
+    text-decoration: underline;
+}
+.g-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    border: 0;
+    margin-top: 40px;
+    padding: 16px;
+    position: relative;
+    background:transparent;
+    cursor:pointer;
+    border:1px solid rgba(128, 128, 128, 0.41);
+    border-radius:10px;
+    color:rgba(128, 128, 128, 0.76)
+}
+.g-logo .logo{
+    position:absolute;
+    left:10px
+}

@@ -1,0 +1,10 @@
+.error{
+    text-align: left !important;
+    margin: 16px 0px;
+    color: red;
+}
+.success{
+    text-align: left !important;
+    margin: 16px 0px;
+    color: green;
+}
